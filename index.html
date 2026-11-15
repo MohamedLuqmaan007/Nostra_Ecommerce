@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <title>Nostra</title>
+
+</head>
+
+<body>
+     <div class="offer-bar">
+
+        <p>
+            Sign Up and <b>GET 20% OFF</b> for your first Order
+
+            <i id="offer-close" class="fa-solid fa-xmark"
+                style="margin-left: 10%; cursor: pointer;"></i>
+        </p>
+
+    </div>
+    <!-- Side Navbar -->
+
+    <div class="side-navbar">
+
+        <p style="text-align: right;">
+
+            <i id="side-navbar-close" class="fa-solid fa-xmark"></i>
+
+        </p>
+
+        <div class="side-navbar-links">
+
+            <p class="side-navbar-link">
+                <a href="./index.html">Home</a>
+            </p>
+
+            <p class="side-navbar-link">
+                <a href="./index.html#new-arrivals">New Arrival</a>
+            </p>
+
+            <p class="side-navbar-link">
+                <a href="./index.html#most-wanted">Most Wanted</a>
+            </p>
+
+            <p class="side-navbar-link">
+                <a href="./collections.html">Collections</a>
+            </p>
+
+            <p class="side-navbar-link">
+                <a href="./contactus.html">Contact Us</a>
+            </p>
+
+        </div>
+
+    </div>
+
+  <div class="header">
+
+    <h1>Nostra</h1>
+
+    <div class="sub_header">
+        <a href="index.html">Home</a>
+        <a href="#new-arrivals">New Arrival</a>
+        <a href="#most-wanted">Most Wanted</a>
+        <a href="Collections.html">Collections</a>
+        <a href="Contact Us.html">Contact Us</a>
+    </div>
+
+    <i class="fa-solid fa-bars" id="side-navbar-activate"></i>
+
+</div>
+
+
+    <!-- Image Slider -->
+
+    <div class="img_container">
+
+        <div class="img">
+
+            <div class="img-track" id="imgTrack">
+                <!-- Images added using JavaScript -->
+            </div>
+
+            <div class="imgtext">
+
+                <h1>Level up your style with our</h1>
+
+                <p>Summer collections</p>
+
+                <button class="shopnow">Shop Now</button>
+
+            </div>
+
+            <button class="left" onclick="prevPhoto()">&#10094;</button>
+
+            <button class="right" onclick="nextPhoto()">&#10095;</button>
+
+        </div>
+
+    </div>
+
+
+    <!-- Brand Section -->
+
+    <div class="brands">
+
+        <div class="brand">
+            <i class="fa-brands fa-product-hunt"></i>
+            <h1>Puma</h1>
+        </div>
+
+        <div class="brand">
+            <i class="fa-brands fa-adn"></i>
+            <h1>Adidas</h1>
+        </div>
+
+        <div class="brand">
+            <i class="fa-solid fa-circle-half-stroke"></i>
+            <h1>Simple</h1>
+        </div>
+
+        <div class="brand">
+            <i class="fa-solid fa-leaf"></i>
+            <h1>Leaves</h1>
+        </div>
+
+        <div class="brand">
+            <i class="fa-brands fa-behance"></i>
+            <h1>Behance</h1>
+        </div>
+
+        <div class="brand">
+            <i class="fa-brands fa-twitch"></i>
+            <h1>Twitch</h1>
+        </div>
+
+        <div class="brand">
+            <i class="fa-solid fa-leaf"></i>
+            <h1>Leaves</h1>
+        </div>
+
+    </div>
+
+
+    <!-- Customer Experience Section -->
+
+    <div class="experience">
+
+        <div class="experience-heading">
+
+            <h1>We Provide Best<br>Customer Experiences</h1>
+
+            <p>
+                || We ensure that our customer have the best
+                shopping experience
+            </p>
+
+        </div>
+
+        <div class="experience-container">
+
+            <div class="experience-box">
+
+                <i class="fa-regular fa-circle-check"></i>
+
+                <h3>Original Products</h3>
+
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur
+                    adipisicing elit. Porro, consequuntur.
+                </p>
+
+            </div>
+
+            <div class="experience-box">
+
+                <i class="fa-regular fa-face-smile"></i>
+
+                <h3>Satisfaction Guarantee</h3>
+
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur
+                    adipisicing elit. Porro, consequuntur.
+                </p>
+
+            </div>
+
+            <div class="experience-box">
+
+                <i class="fa-solid fa-paintbrush"></i>
+
+                <h3>New Arrival Everyday</h3>
+
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur
+                    adipisicing elit. Porro, consequuntur.
+                </p>
+
+            </div>
+
+            <div class="experience-box">
+
+                <i class="fa-solid fa-truck-fast"></i>
+
+                <h3>Fast & Free Shipping</h3>
+
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur
+                    adipisicing elit. Porro, consequuntur.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- NEW ARRIVALS SECTION -->
+
+    <section class="new-arrivals" id="new-arrivals">
+
+        <h2>New Arrivals</h2>
+
+        <div class="product-container">
+
+            <div class="product-card">
+
+                <img src="images/61MwxbBTeAL._AC_UL320_.jpg" alt="Printed Shirt">
+
+                <div class="overlay"></div>
+
+                <button>Shop Now →</button>
+
+            </div>
+
+            <div class="product-card">
+
+                <img src="images/71fJKbCU4xL._AC_UL320_.jpg" alt="Men Pants">
+
+                <div class="overlay"></div>
+
+                <button>Shop Now →</button>
+
+            </div>
+
+            <div class="product-card">
+
+                <img src="images/71jm9QYdLBL._AC_UL320_.jpg" alt="Men Fashion">
+
+                <div class="overlay"></div>
+
+                <button>Shop Now →</button>
+
+            </div>
+
+            <div class="product-card">
+
+                <img src="images/617nlKLJo+L._AC_UL320_.jpg" alt="Fashion Collection">
+
+                <div class="overlay"></div>
+
+                <button>Shop Now →</button>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- MOST WANTED SECTION -->
+
+    <section class="most-wanted" id="most-wanted">
+
+        <h2>Most Wanted</h2>
+
+        <div class="slider-wrapper">
+
+            <button class="arrow left" id="leftBtn">&#10094;</button>
+
+            <div class="product-container" id="productContainer">
+
+                <div class="product-card">
+
+                    <span class="sale">sale</span>
+
+                    <img src="images/51gmcJ4iBkL._AC_UL320_.jpg" alt="Black Shirt">
+
+                    <span class="heart">&#9825;</span>
+
+                </div>
+
+                <div class="product-card">
+
+                    <span class="sale">sale</span>
+
+                    <img src="images/51suEsggRLL._AC_UL320_.jpg" alt="Printed Shirt">
+
+                    <span class="heart">&#9825;</span>
+
+                </div>
+
+                <div class="product-card">
+
+                    <span class="sale">sale</span>
+
+                    <img src="images/61MwxbBTeAL._AC_UL320_.jpg" alt="Blue Shirt">
+
+                    <span class="heart">&#9825;</span>
+
+                </div>
+
+                <div class="product-card">
+
+                    <span class="sale">sale</span>
+
+                    <img src="images/61w+5MIGRGL._AC_UL320_.jpg" alt="Brown Shirt">
+
+                    <span class="heart">&#9825;</span>
+
+                </div>
+
+                <div class="product-card">
+
+                    <span class="sale">sale</span>
+
+                    <img src="images/71fJKbCU4xL._AC_UL320_.jpg" alt="White Shirt">
+
+                    <span class="heart">&#9825;</span>
+
+                </div>
+
+                <div class="product-card">
+
+                    <span class="sale">sale</span>
+
+                    <img src="images/71FZaqKCwjL._AC_UL320_.jpg" alt="Product 6">
+
+                    <span class="heart">&#9825;</span>
+
+                </div>
+
+                <div class="product-card">
+
+                    <span class="sale">sale</span>
+
+                    <img src="images/71GxB8DJLyL._AC_UL320_.jpg" alt="Product 7">
+
+                    <span class="heart">&#9825;</span>
+
+                </div>
+
+                <div class="product-card">
+
+                    <span class="sale">sale</span>
+
+                    <img src="images/71jm9QYdLBL._AC_UL320_.jpg" alt="Product 8">
+
+                    <span class="heart">&#9825;</span>
+
+                </div>
+
+                <div class="product-card">
+
+                    <span class="sale">sale</span>
+
+                    <img src="images/71pGyaZv2dL._AC_UL320_.jpg" alt="Product 9">
+
+                    <span class="heart">&#9825;</span>
+
+                </div>
+
+                <div class="product-card">
+
+                    <span class="sale">sale</span>
+
+                    <img src="images/71VgKsFOFrL._AC_UL320_.jpg" alt="Product 10">
+
+                    <span class="heart">&#9825;</span>
+
+                </div>
+
+            </div>
+
+            <button class="arrow right" id="rightBtn">&#10095;</button>
+
+        </div>
+
+    </section>
+
+
+    <!-- LIMITED OFFER SECTION -->
+
+    <section class="limited-offer">
+
+        <div class="offer-image">
+
+            <img src="images/offer.jpg" alt="Limited Offer">
+
+        </div>
+
+        <div class="offer-content">
+
+            <h1>Limited Offer</h1>
+
+            <h2>35% OFF on this for the first 30 Customers</h2>
+
+            <button class="shop-btn">
+                Shop Now →
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- NEWSLETTER SECTION -->
+
+    <section class="newsletter">
+
+        <h1>Join our News Letter</h1>
+
+        <p>
+            Signup for our email newspaper to get exclusive discounts,
+            updates, and more
+        </p>
+
+        <form id="newsletterForm">
+
+            <input
+                type="email"
+                id="email"
+                placeholder="Enter your email address"
+                required
+            >
+
+            <button type="submit">
+                Subscribe →
+            </button>
+
+        </form>
+
+        <p id="message"></p>
+
+    </section>
+
+
+    <!-- FOOTER -->
+
+    <footer class="footer">
+
+        <h1>Nostra</h1>
+
+        <p>
+            The Standard chunk of Lorem ipsum used since the 1500s
+            is reproduced below for those interest
+        </p>
+
+        <div class="social-icons">
+
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+
+        </div>
+
+        <h2>@ 2023 Nostra.com</h2>
+
+    </footer>
+
+
+    <!-- JAVASCRIPT -->
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
